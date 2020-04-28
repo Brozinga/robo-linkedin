@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="box">
+    <div class="sk-chase">
+      <div class="sk-chase-dot"></div>
+      <div class="sk-chase-dot"></div>
+      <div class="sk-chase-dot"></div>
+      <div class="sk-chase-dot"></div>
+      <div class="sk-chase-dot"></div>
+      <div class="sk-chase-dot"></div>
+    </div>
+    <h2 class="title">Processando, isso pode demorar!</h2>
+    <br>
+    <h4 class="subtitle">Feche o navegador para encerar <Br> o Robo a qualquer momento</h4>
+  </div>
+  <main class="container">
+    <div class="log">
+      <i class="fab fa-linkedin logo"></i>
+    </div>
+    <div class="login">
+      <input class="frm" type="email" id="login" placeholder="Digite o seu email no Linkedin" />
+      <input class="frm" type="password" id="pass" placeholder="Digite sua senha do Linkedin" />
+      <hr />
+    </div>
+
+    <input class="frm" id="perfil" placeholder="Digite o perfil de interesse" type="text" />
+    <div class="frm-container">
+      <small>Tamanho máximo de 300 caracteres</small>
+      <textarea maxlength="300" id="message" class="frm" placeholder="Digite a mensagem caso queira"
+        type="text"></textarea>
+    </div>
+
+    <button id="submit" type="button"><i class="fas fa-search"></i> Começar as Solicitações</button>
+  </main>
+</body>
+<script src="./render.js"></script>
+
+</html>
