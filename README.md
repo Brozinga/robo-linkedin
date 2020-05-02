@@ -1,5 +1,9 @@
 # Robo para Linkedin - NodeJS
 
+Link da Publicação no Linkedin:
+
+https://www.linkedin.com/posts/fernando-brozinga-a21328178_e-ai-galerinha-eu-estava-assistindo-o-activity-6662144253105315840-0UG1
+
 Vi um projeto a muito tempo onde foi feito um Robo para Linkedin usando Selenium e Phyton, e eu pensei como seria fazer isso em NodeJS.
 
 Então apresento a vocês o resultado disso:
